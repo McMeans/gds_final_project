@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Human-Centered Chatbot{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        amber: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-amber-50">
+    {% block content %}{% endblock %}
+    
+    <footer class="w-full py-6 bg-amber-900 text-amber-50">
+        <div class="container px-4 md:px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-sm">© 2025 Human Chatbot. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="/about" class="text-sm hover:underline">About</a>
+                    <a href="/how-it-works" class="text-sm hover:underline">How It Works</a>
+                    <a href="/faq" class="text-sm hover:underline">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

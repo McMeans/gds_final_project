@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Human-Centered Chatbot{% endblock %}
+
+{% block content %}
+<div class="flex flex-col min-h-screen">
+    <main class="flex-1">
+        <section class="w-full py-12 md:py-24 bg-amber-50">
+            <div class="container px-4 md:px-6">
+                <div class="flex flex-col items-center text-center space-y-4">
+                    <div class="inline-block p-4 rounded-full bg-amber-100">
+                        <svg class="h-10 w-10 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                    <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-amber-900">
+                        Welcome to Human Bot
+                    </h1>
+                    <p class="max-w-[700px] text-gray-700 md:text-xl mx-auto">
+                        Experience a chatbot designed with human-centered principles. Start a conversation and see the difference.
+                    </p>
+                    <a href="/chat" class="inline-flex items-center justify-center rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white hover:bg-amber-700">
+                        Start Chatting
+                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+{% endblock %} 
