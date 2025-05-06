@@ -115,6 +115,7 @@
                 conversation.push({ role: "user", parts: [{ text: message }] });
                 messageInput.value = '';
                 // Fetch Gemini response with conversation memory
+                showTypingIndicator();
                 fetch('/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -122,6 +123,7 @@
                 })
                 .then(res => res.json())
                 .then(data => {
+                    removeTypingIndicator();
                     if (data.message) {
                         addBotMessageTyping('Edmund', data.message);
                         conversation.push({ role: "model", parts: [{ text: data.message }] });
@@ -130,6 +132,7 @@
                     }
                 })
                 .catch(() => {
+                    removeTypingIndicator();
                     addBotMessageTyping('Edmund', 'Sorry, there was an error connecting to the server.');
                 });
             }
@@ -180,6 +183,28 @@
         
         // On page load, show the welcome message
         addBotMessageTyping('Edmund', conversation[0].parts[0].text);
+
+        function showTypingIndicator() {
+            // Remove any existing indicator
+            removeTypingIndicator();
+            const typingElement = document.createElement('div');
+            typingElement.classList.add('message', 'bot', 'typing-indicator');
+            typingElement.innerHTML = `
+                <div class="message-user">Edmund</div>
+                <div class="message-bubble">
+                    <span class="typing-dots">
+                        <span>.</span><span>.</span><span>.</span>
+                    </span>
+                </div>
+            `;
+            chatMessages.appendChild(typingElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function removeTypingIndicator() {
+            const indicator = document.querySelector('.typing-indicator');
+            if (indicator) indicator.remove();
+        }
     </script>
 </body>
 </html>
