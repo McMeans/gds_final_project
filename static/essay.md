@@ -49,6 +49,6 @@ O’Neil, C. (2017). *Weapons of math destruction: How big data increases inequa
 
 Scott, J. C. (2020). *Seeing like a state: How certain schemes to improve the human condition have failed*. Yale University Press.
 
-*What is LLM (Large Languge Model)?*. Amazon Web Services (AWS). (n.d.). https://aws.amazon.com/what-is/large-language-model/
+*What is LLM (Large Language Model)?*. Amazon Web Services (AWS). (n.d.). https://aws.amazon.com/what-is/large-language-model/
 
 Zhu, T., Zhang, K., & Wang, W. Y. (2025). *Embracing AI in Education: Understanding the Surge in Large Language Model Use by Secondary Students*. Embracing AI in education: Understanding the surge in large language model use by secondary students. https://arxiv.org/html/2411.18708v1
