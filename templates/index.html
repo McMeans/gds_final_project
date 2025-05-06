@@ -127,6 +127,8 @@
                     if (data.message) {
                         addBotMessageTyping('Edmund', data.message);
                         conversation.push({ role: "model", parts: [{ text: data.message }] });
+                    } else if (data.error) {
+                        addBotMessageTyping('Edmund', data.error);
                     } else {
                         addBotMessageTyping('Edmund', 'Sorry, I could not get a response.');
                     }

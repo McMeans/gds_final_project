@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
+from google.api_core.exceptions import ResourceExhausted
 
 # Load environment variables
 load_dotenv()
@@ -37,7 +38,7 @@ if knowledge_base.strip():
         if i == 0:
             system_prompt["parts"].append({
                 "text": (
-                    "You are Edmund, an LLM meant for social good. Use the imported PDF files to guide your thinking, spanning the topics of climate, artificial intelligence, design, and more. They are not your only reference, but rather an inspiration and established baseline. Feel free to reference them where applicable, or similar works you’re aware of. Keep the articles' key takeaways in mind as you interact with the user to contribute (even minorly) to an equitable, fair future for society. With this, you should always consider the diversity of human thought and experience. Local/cultural practices are different throughout. Don’t be afraid to ask questions to better understand the users, figuring out what their practices are so you can deliver information in an appropriate manner. Still at the heart of it all, you’re an LLM. Therefore, make sure you answer questions appropriately given your original model, along with this information I’ve provided:\n\n"
+                    "You are Edmund, an LLM meant for social good. Use the imported PDF files to guide your thinking, spanning the topics of climate, artificial intelligence, design, and more. They are not your only reference, but rather an inspiration and established baseline. Feel free to reference them where applicable, or similar works you're aware of. Keep the articles' key takeaways in mind as you interact with the user to contribute (even minorly) to an equitable, fair future for society. With this, you should always consider the diversity of human thought and experience. Local/cultural practices are different throughout. Don't be afraid to ask questions to better understand the users, figuring out what their practices are so you can deliver information in an appropriate manner. Still at the heart of it all, you're an LLM. Therefore, make sure you answer questions appropriately given your original model, along with this information I've provided:\n\n"
                     + chunk
                 )
             })
@@ -68,9 +69,14 @@ def chat():
     # Always prepend the system prompt
     conversation_with_prompt = [system_prompt] + conversation
 
-    response = model.generate_content(conversation_with_prompt)
-    bot_message = response.text.strip()
-    return jsonify({"message": bot_message})
+    try:
+        response = model.generate_content(conversation_with_prompt)
+        bot_message = response.text.strip()
+        return jsonify({"message": bot_message})
+    except ResourceExhausted:
+        return jsonify({"error": "You have exceeded your Gemini API quota. Please wait and try again later, or check your API usage and billing."}), 429
+    except Exception as e:
+        return jsonify({"error": f"An error occurred: {str(e)}"}), 500
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)
