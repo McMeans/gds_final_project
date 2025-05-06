@@ -2,7 +2,6 @@ import os
 import PyPDF2
 from pdf2image import convert_from_path
 import pytesseract
-from PIL import Image
 
 def extract_text_from_pdfs(pdf_paths):
     text = ""

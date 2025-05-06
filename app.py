@@ -2,10 +2,6 @@ from flask import Flask, render_template, request, jsonify
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-import PyPDF2
-from pdf2image import convert_from_path
-import pytesseract
-from PIL import Image
 
 # Load environment variables
 load_dotenv()
