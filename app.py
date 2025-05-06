@@ -18,31 +18,9 @@ app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", os.urandom(24))
 with open(os.path.join('static', 'essay.md'), 'r', encoding='utf-8') as f:
     essay_markdown = f.read()
 
-# Extract knowledge base from PDFs
-def extract_text_from_pdfs(pdf_paths):
-    text = ""
-    for path in pdf_paths:
-        with open(path, "rb") as f:
-            reader = PyPDF2.PdfReader(f)
-            for i, page in enumerate(reader.pages):
-                # Try to extract text normally
-                page_text = page.extract_text()
-                if page_text and len(page_text.strip()) > 30:
-                    text += page_text + "\n"
-                else:
-                    # If little or no text, use OCR
-                    try:
-                        images = convert_from_path(path, first_page=i+1, last_page=i+1)
-                        for image in images:
-                            ocr_text = pytesseract.image_to_string(image)
-                            if ocr_text.strip():
-                                text += ocr_text + "\n"
-                    except Exception as e:
-                        print(f"OCR failed for {path} page {i+1}: {e}")
-    return text
-
-pdf_files = [os.path.join('training_data', f) for f in os.listdir('training_data') if f.endswith('.pdf')]
-knowledge_base = extract_text_from_pdfs(pdf_files)
+# Get knowledge base
+with open("knowledge_base.txt", "r", encoding="utf-8") as f:
+    knowledge_base = f.read()
 
 # Set up Gemini
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))

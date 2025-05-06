@@ -1,0 +1,840 @@
+JANE BENNETT
+
+Vibrant Matter
+A Political Ecology of Things
+
+Duke University Press Durham and London 2010
+
+
+The Agency of Assemblages
+
+Thing-power perhaps has the rhetorical advantage of calling to mind a
+childhood sense of the world as filled with all sorts of animate beings,
+some human, some not, some organic, some not. It draws attention to
+an efficacy of objects in excess of the human meanings, designs, or pur-
+poses they express or serve. Thing-power may thus be a good starting
+point for thinking beyond the life-matter binary, the dominant organi-
+zational principle of adult experience. The term's disadvantage, how-
+ever, is that it also tends to overstate the thinginess or fixed stability of
+materiality, whereas my goal is to theorize a materiality that is as much
+force as entity, as much energy as matter, as much intensity as extension.
+Here the term out-side may prove more apt. Spinoza’s stones, an abso-
+lute Wild, the oozing Meadowlands, the nimble Odradek, the moving
+deodand, a processual minerality, an incalculable nonidentity—none
+of these are passive objects or stable entities (though neither are they
+intentional subjects).' They allude instead to vibrant materials.
+A second, related disadvantage of thing-power is its latent individual-
+ism, by which I mean the way in which the figure of “thing” lends itself
+to an atomistic rather than a congregational understanding of agency.
+
+the agency of assemblages 21
+
+While the smallest or simplest body or bit may indeed express a vital
+impetus, conatus or clinamen, an actant never really acts alone. Its effi-
+cacy or agency always depends on the collaboration, cooperation, or
+interactive interference of many bodies and forces. A lot happens to
+the concept of agency once nonhuman things are figured less as social
+constructions and more as actors, and once humans themselves are as-
+sessed not as autonoms but as vital materialities.
+
+In this chapter I will try to develop a theory of distributive agency by
+examining a real-life effect: a power blackout that affected 50 million
+people in North America in 2003. I will offeran analysis of the electrical
+power grid as an agentic assemblage. How does the agency of assem-
+blages compare to more familiar theories of action, such as those cen-
+tered around human will or intentionality, or around intersubjectivity,
+or around (human) social, economic, or discursive structures? And how
+would an understanding of agency as a confederation of human and
+nonhuman elements alter established notions of moral responsibility
+and political accountability?
+
+Two philosophical concepts are important to my response to these
+questions: Spinoza’s “affective” bodies and Gilles Deleuze and Félix
+Guattari’s “assemblage.” I will therefore offer a brief exposition of these
+concepts before I turn to an account of the power blackout that tries to
+take the out-side seriously and tries to remain faithful to the distributive
+quality of “agency.”
+
+Affective Bodies ss
+
+Spinoza's conative bodies are also associative or (one could even say)
+social bodies, in the sense that each is, by its very nature as a body,
+continuously affecting and being affected by other bodies. Deleuze ex-
+plicates this point: the power of a body to affect other bodies includes a
+“corresponding and inseparable” capacity to be affected; “there are two
+equally actual powers, that of acting, and that of suffering action, which
+vary inversely one to the other, but whose sum is both constant and
+constantly effective.”? Spinoza’s conative, encounter-prone body arises
+in the context of an ontological vision according to which all things are
+
+- “modes” of a common “substance”? Any specific thing —“a shoe, a ship,
+
+a cabbage, a king” (to use Martin Lin’s list)* or a glove, a rat, a cap, and
+
+
+22 chapter 2
+
+the human narrator of their vitality (to use my list)—is neither subject
+nor object but a “mode” of what Spinoza calls “Deus sive Natura” (God
+or Nature)
+
+Spinoza also says that every mode is itself a mosaic or assemblage of
+many simple bodies, or, as Deleuze describes it, there are for Spinoza no
+“existing modes that are not actually composed of a very great number
+of extensive parts,” parts that “come to it from elsewhere.”® It is inter-
+esting that Lucretius, too, saw mosaicism as the way things essentially
+are: “It is right to have this truth . . . surely sealed and to keep it stored
+in your remembering mind, that there is not one of all the things, whose
+nature is seen before our face, which is built of one kind of primordia,
+nor anything which is not created of well-mingled seed.” Lucretius links
+the degree of internal diversity to the degree of power possessed by the
+thing: “And whatever possesses within it more forces and powers, it thus
+
+shows that there are in it most kinds of primordia and diverse shapes.”
+Spinoza, as we shall see, makes a similar point.
+
+For Spinoza, both simple bodies (which are perhaps better termed
+protobodies) and the complex or mosaicized modes they form are cona-
+tive. In the case of the former, conatus is expressed as a stubbornness
+or inertial tendency to persist; in the case of a complex body or mode,
+conatus refers to the effort required to maintain the specific relation of
+“movement and rest” that obtains between its parts, a relation that de-
+fines the mode as what it is. This maintenance is not a process of mere
+repetition of the same, for it entails continual invention: because each
+mode suffers the actions on it by other modes, actions that disrupt the
+relation of movement and rest characterizing each mode, every mode,
+if it is to persist, must seek new encounters to creatively compensate
+for the alterations or affections it suffers. What it means to be a “mode,”
+then, is to form alliances and enter assemblages: it is to mod(e)ify and
+be modified by others. The process of modification is not under the con-
+
+trol of any one mode—no mode is an agent in.the hierarchical sense.
+
+Neither is the process without tension, for each mode vies with and
+
+against the (changing) affections of (a changing set of) other modes, all
+
+the while being subject to the element of chance or contingency intrin-
+sic to any encounter.’
+
+Conative substance turns itself into confederate bodies, that is, com-
+plex bodies that in turn congregate with each other in the pursuit of
+the enhancement of their power. Spinoza believes, for example, that the
+
+the agency of assemblages 23
+
+more kinds of bodies with which a body can affiliate, the better: “As the
+body is more capable of being affected in many ways and of affecting
+external bodies . . . so the mind is more capable of thinking”
+
+The key idea I want to take from Spinoza’s rich and contestable phi-
+losophy, an idea I will put to work for a vital materialism, is this: bodies
+enhance their power in or as a heterogeneous assemblage. What this sug-
+gests for the concept of agency is that the efficacy or effectivity to which
+that term has traditionally referred becomes distributed across an onto-
+logically heterogeneous field, rather than being a capacity localized.in
+a human body or in a collective produced (only) by human efforts. The
+sentences of this book also emerged from the confederate agency of
+many striving macro- and microactants: from “my” memories, inten-
+tions, contentions, intestinal bacteria, eyeglasses, and blood sugar, as
+well as from the plastic computer keyboard, the bird song from the open
+window, or the air or particulates in the room, to name only a few of the
+participants. What is at work here on the page is an animal-vegetable-
+mineral-sonority cluster with a particular degree and duration of power.
+What is at work here is what Deleuze and Guattari call an assemblage.
+
+What Is an Assemblage?
+
+At the end of the twentieth century, the arena in which stuff happens —
+What the military calls the “theater of operations” seemed to many
+. people to have expanded dramatically. “Globalization” had occurred and
+the earth itself had become a space of events. ‘The parts of this giant
+_ whole were both intimately interconnected and highly conflictual. This
+fact— of the coexistence of mutual dependency with friction and vio-
+lence between parts—called for new conceptualizations of the part-
+whole relation. Organicist models, in which each member obediently
+serves the whole, were clearly out. A host of new ways to name the kind
+of relation obtaining between the parts of a volatile but somehow func-
+tioning whole were offered: network, meshwork, Empire." My term of
+‘choice to describe this event-space and its style of structuration is, fol-
+-lowing Deleuze and Guattari, assemblage.
+Assemblages are ad hoc groupings of diverse elements, of vibrant
+materials of all sorts. Assemblages are living, throbbing confederations
+that are able to function despite the persistent presence of energies that
+
+
+24, chapter 2
+
+confound them from within. They have uneven topographies, because
+some of the points at which the various affects and bodies cross paths
+are more heavily trafficked than others, and so power is not distributed
+equally across its surface. Assemblages are not governed by any central
+head: no one materiality or type of material has sufficient competence
+to determine consistently the trajectory or impact of the group. The
+effects generated by an assemblage are, rather, emergent properties,
+emergent in that their ability to make something happen (a newly in-
+flected materialism, a blackout, a hurricane, a war on terror) is distinct
+from the sum of the vital force of each materiality considered alone.
+Each member and proto-member of the assemblage has a certain vital
+force, but there is also an effectivity proper to the grouping as such: an
+agency of the assemblage. And precisely because each member-actant
+maintains an energetic pulse slightly “off” from that of the assemblage,
+an assemblage is never a stolid block but an open-ended collective, a
+“non-totalizable sum.’* An assemblage thus not only has a distinctive
+history of formation but a finite life span.
+
+The electrical power grid offers a good example of an assemblage. It is
+a material cluster of charged parts that have indeed affiliated, remaining
+in sufficient proximity and coordination to produce distinctive effects.
+The elements of the assemblage work together, although their coordina-
+tion does not rise to the level of an organism. Rather, its jelling endures
+alongside energies and factions that fly out from it and disturb it from
+within. And, most important for my purposes, the elements of this as-
+semblage, while they include humans and their (social, legal, linguistic)
+constructions, also include some very active and powerful nonhumans:
+electrons, trees, wind, fire, electromagnetic fields.
+
+The image of affective bodies forming assemblages will enable me to
+highlight some of the limitations in human-centered theories of action
+and to investigate some of the practical implications, for social-science
+inquiry and for public culture, of a theory of action and responsibility
+that crosses the human-nonhuman divide.
+
+The Blackout
+
+The International Herald Tribune, on the day after the blackout, reported
+that “the vast but shadowy web of transmission lines, power generat-
+
+the agency of assemblages 25
+
+ing plants and substations known as the grid is the biggest gizmo ever
+built. . . . on Thursday [14 August 2003], the grid’s heart fluttered. . . .
+complicated beyond full understanding, even by experts—[the grid]
+lives and occasionally dies by its own mysterious rules.’ To say that
+- the grid’s “heart fluttered” or that it “lives and dies by its own rules” is
+to anthropomorphize. But anthropomorphizing has, as I shall argue in
+- chapter 8, its virtues. Here it works to gesture toward the inadequacy of
+understanding the grid simply as a machine ora tool, as, that is, a series
+of fixed parts organized from without that serves an external purpose.
+To the vital materialist, the electrical grid is better understood as a
+volatile mix of coal, sweat, electromagnetic fields, computer programs,
+electron streams, profit motives, heat, lifestyles, nuclear fuel, plastic,
+fantasies of mastery, static, legislation, water, economic theory, wire,
+and wood—to name just some of the actants. There is always some fric-
+tion among the parts, but for several days in August 2003 in the United
+States and Canada the dissonance was so great that cooperation became
+impossible. The North American blackout was the end point of a cas-
+cade— of voltage collapses, self-protective withdrawals from the grid,
+and human decisions and omissions. The grid includes various valves
+and circuit breakers that disconnect parts from the assemblage when-
+ever they are threatened by excessive heat. Generating plants, for ex-
+ample, shut down just before they are about to go into “full excitation,”
+_and they do the same when the “system voltage has become too low to
+provide power to the generator’s own auxiliary equipment, such as fans,
+coal pulverizers, and pumps.”** What seems to have happened on that
+August day was that several initially unrelated generator withdrawals
+~ in Ohio and Michigan caused the electron flow pattem to change over
+the transmission lines, which led, after a series of events including one
+brush fire that burnt a transmission line and then several wire-tree en-
+counters, to a successive overloading of other lines and a vortex of dis-
+connects. One generating plant after another separated from the grid,
+placing more and more stress on the remaining participants. In a one-
+minute period, “twenty generators (loaded to 2174 mw) tripped off line
+“along Lake Erie””
+Investigators still do not understand why the cascade ever stopped
+itself, after affecting 50 million people over approximately twenty-four
+_ thousand square kilometers and shutting down over one hundred power
+: ants, including twenty-two nuclear reactors.” The U.S.-Canada Power
+
+
++26 chapter 2
+
+Outage Task Force report was more confident about how the cascade
+began, insisting on a variety of agential loci.® These included electricity,
+with its internal differentiation into “active” and “reactive” power (more
+on this later); the. power plants, understaffed by humans but overpro-
+tective in their mechanisms; transmission wires, which tolerate only so
+much heat before they refuse to transmit the electron flow; a brush fire
+in Ohio; Enron FirstEnergy and other energy-trading corporations, who,
+by legal and illegal means, had been milking the grid without main-
+taining its infrastructure; consumers, whose demand for electricity
+grows and is encouraged to grow by the government without concern
+for consequences; and the Federal Energy Regulatory Commission, whose
+Energy Policy Act of 1992 deregulated the grid, separated the genera-
+tion of electricity from its transmission and distribution, and advanced
+the privatization of electricity. Let me say a bit more about the first and
+the last of these conative bodies in the assemblage.
+
+First, the nonhuman: electricity. Electricity is a stream of electrons
+moving in a current, which is measured in amperes; the force of that
+current (the pressure pushing it through the wires) is measured in volts.
+Ina system like the North American grid, electrical current and voltage
+are constantly oscillating like a pair of waves.” When the two waves are
+in phase with each other (rising and falling at exactly the same time),
+one has so-called active power, or the type of power used most heavily
+by lamps, blow-dryers, and other appliances. But some devices (such
+as the electric motors in refrigerators and air conditioners) rely also
+on so-called reactive power, where the waves are not in sync. Reactive
+power, though it lends no help in physically rotating a motor, is vital
+to the active power that accompanies it, for reactive power maintains
+the voltage (electricity pressure) needed to sustain the electromagnetic
+field required by the system as a whole. If too many devices demand re-
+active power, then a deficit is created. One of the causes of the blackout
+was a deficit of reactive power. To understand how the deficit occurred,
+we need to consider the other actants, including the Federal Energy
+Regulatory Commission.
+
+In 1992 the commission gained U.S. congressional approval for legis-
+lation that sepaxated the production of electricity from its distribution:
+companies could now buy electricity from a power plant in one part of
+the country and sell it to utilities in geographically distant locations.
+
+the agency of assemblages 27
+
+This greatly increased the long-distance trading of electric power—and
+greatly increased the load on transmission wires. But here is the rub: “As
+transmission lines become more heavily loaded, they consume more of
+the reactive power needed to maintain proper transmission voltage.”**
+Reactive power does not travel well, dissipating over distance, so it is
+-best if generated close to where it will be used.” Power plants are tech-
+nically quite capable of producing extra amounts of reactive power, but
+they lack the financial incentive to do so, for reactive-power production
+_ reduces the amount of salable power produced. What is more, under
+_ the new regulations, transmission companies cannot compel generating
+plants to produce the necessary amounts of reactive power
+
+Reactive power, vital to the whole grid, proved a commodity with-
+“out profit and thus came in short supply. Here emerged what Garrett
+~ Hardin has called a tragedy of the commons. Though rational for each
+“user of reactive power to increase its demand for the free commodity,
+the aggregate effect is irrational in that it destroys the wellspring: in a
+world of finite resources, “freedom in a commons brings ruin to all.”
+- The reactive power deficit was an effect unanticipated by human advo-
+cates of the regulations that created a huge, continent-wide market in
+energy trading. Their actions produced unintended consequences; or, to
+put the point in a vital materialist vocabulary, they were subject to the
+“slight surprise of action.” The phrase is Bruno Latour’s, and it refers to
+
+an effectivity proper to the action itself, arising only in the doing and
+thus in principle independent of any aim, tendency, or characteristic of
+the actants: “There is no object, no subject. . . . But there are events. I
+
+ever act; I am always slightly surprised by what I do.’
+
+-Neither, says Latour, is the slight surprise of action confined to.
+human action: “That which acts through me is also surprised by what I
+
+do, by the chance to mutate, to change, . . . to bifurcate.””* In the case
+
+at hand, electricity was also an actant, and its strivings also produced.
+
+aleatory effects. For example, “in the case of a power shipment from the
+
+Pacific Northwest to Utah, 33% of the shipment flows through Southern
+
+California and 30% flows through Arizona—far from any conceivable
+
+contract path.’?7 And in August of 2003, after “the transmission lines
+
+along the southern shore of Lake Erie disconnected, the power that had
+
+been flowing along that path” dramatically and surprisingly changed its
+
+behavior: it “immediately reversed direction and began flowing in a giant
+
+
+i
+if
+
+28 chapter 2
+
+loop counterclockwise from Pennsylvania to New York to Ontario and
+into Michigan.”* Seeking to minimize the company’s role in the black-
+out, aspokesman for FirstEnergy, the Ohio-based company whose East-
+lake power plant was an early actant in the cascade and an early target
+of blame, said that any analysis needed to “take into account large un-
+planned south-to-north power movements that were part ofa phenome-
+non known as loop flows, which occur when power takes a route from
+producer to buyer different from the intended path.” Electricity, or
+the stream of vital materialities called electrons, is always on the move,
+always going somewhere, though where this will be is not entirely pre-
+dictable. Electricity sometimes goes where we send it, and sometimes it
+chooses its path on the spot, in response to the other bodies it encoun-
+ters and the surprising opportunities for actions and interactions that
+hey afford.
+
+Jn this selective account of the blackout, agency, conceived now
+as something distributed along a continuum, extrudes from multiple
+sites or many loci—from a quirky electron flow and a spontaneous fire
+to members of Congress who have a neoliberal faith in market self-
+regulation. How does this view compare to other conceptions of what
+an agent is and can do?
+
+c.
+
+The Willing Subject and the Intersubjective Field
+
+T have been suggesting that there is not so much a doer (an agent) be-
+bind the deed (the blackout) as a doing and an effecting by a human-
+nonhuman assemblage. This federation of actants is a creature that the
+concept of moral responsibility fits only loosely and to which the charge
+of blame will not quite stick. A certain looseness and slipperiness, often
+unnoticed, also characterizes more human-centered notions of agency.
+Augustine, for example, linked moral agency to free will, but the human
+willis, as Augustine reveals in his Confessions, divided against itself after
+the Fall: the will wills even as another part of the will fights that willing.
+Moreover, willing agents can act freely only in support of evil: never are
+they able by themselves to enact the good, for that always requires the
+intervention of divine grace, a force beyond human control. Agency,
+then, is not such a clear idea or a self-sufficient power in Augustine?
+
+the agency of assemblages 29
+
+Neither is it in Immanuel Kant. He aspired to define agency in terms
+of the autonomous will of the person who submits to the moral law
+(whose form is inscribed in human reason). But, as William Connolly
+has explored, Kant, too, eventually found the will to be divided against
+itself, this time by an innate “propensity” for evil, wherein the will obeys
+maxims that derive from the inclinations." It is not merely that the will
+
+" fights against the pressure of an unwilled “sensibility”: the propensity
+for evil lives inside the will itself. Human agency again appears as a
+vexed concept, though its snarls and dilemmas are easy to skate over
+when the alternatives are reduced to either a free human agency or pas-
+sive, deterministic matter.
+
+Some neo-Kantian accounts of agency emphasize intentionality (the
+power to formulate and enact aims) more than the moral will, but here
+the question is whether other forces in the world approximate some
+of the characteristics of intentional or purposive behavior on the part
+of humans.” An acknowledgment of something like this, of a kind of
+thing-power, may be at work in the “agency-versus-structure” debate
+in the social sciences, according to which structures are described as
+powerful entities that work with and against human purposes. But the
+_ category of “structure” is ultimately unable to give the force of things
+its due: a structure can act only negatively, as a constraint on human
+agency, or passively, as an enabling background or context for it. Active
+action or agency belongs to humans alone: “All agree that agency refers
+to the intentional choices made by men and women as they take action
+» to realize their goals,” even though “these actors are socially constituted
+= beings embedded in sociocultural and ecological surroundings that
+both define their goals and constrain their actions.”** Actors are “so-
+cially constituted,” but the “constitutive” or productive power of struc-
+tures derives from the human wills or intentions within them. There is
+no agency proper to assemblages, only the effervescence of the agency
+~ of individuals acting alone or in concert with each other. Structures,
+surroundings, and contexts make a difference to outcomes, but they are
+not quite vibrant matter.
+
+The same point applies, I think, to the phenomenological theory of
+agency set forth by Maurice Merleau-Ponty. His Phenomenology of Per-
+_-ception was designed to avoid placing too much weight on human will,
+intentionality, or reason. It focused instead on the embodied charac-
+
+
+30 chapter 2 the agency of assemblages 31
+
+ter of human action, through its concept of motor intentionality>+ and |-
+on the agentic contributions made by an intersubjective field25 Diana
+Coole, taking up Merleau-Ponty’s task, replaces the discrete agent and
+its “residual individualism” with a “spectrum” of “agentic capacities”
+housed sometimes in individual persons, sometimes in human physio
+
+‘human ingenuity,” or “a simple white screen to support the differentia-
+ion of society.”3*
+
+‘The vital materialist must admit that different materialities, com-
+posed of different sets of protobodies, will express different powers.
+{umans, for example, can experience themselves as forming intentions
+and as standing apart from their actions to reflect on the latter. But even
+here it may be relevant to note the extent to which intentional reflex-
+Avity is also a product of the interplay of human and nonhuman forces.
+Jernard Stiegler does just this in his study of how tool-use engendered
+being with an inside, with, that is, a psychological landscape of in-
+teriority. Stiegler contends that conscious reflection in (proto)humans
+first emerged with the use of stone tools because the materiality of the
+tool acted as an external marker of a past need, as an “archive” of its
+function. The stone tool (its texture, color, weight), in calling attention
+its projected and recollected use, produced the first hollow of reflec-
+ion.” Humanity and nonhumanity have always performed an intricate
+dance with each other. There was never a time when human agency was
+anything other than an interfolding network of humanity and nonhu-
+manity; today this mingling has become harder to ignore.
+
+logical processes or motor intentionality, and sometimes in human so-
+cial structures or the “interworld”: “At one pole [of the spectrum of.
+agentic capacities] I envisage pre-personal, non-cognitive bodily pro-
+cesses; at the other, transpersonal, intersubjective processes that in-
+stantiate an interworld. Between them are singularities: phenomena
+with a relatively individual or collective identity.”
+
+Coole’s attempt to dislodge agency from its exclusive mooring in the
+individual, rational subject provides an important touchstone for my at-
+tempt to extend the spectrum even further— beyond human bodies and
+intersubjective fields to vital materialities and the human-nonhuman
+assemblages they form. For though Coole’s spectrum gives no special _
+privilege to the human individual, it recognizes only human powers:
+human biological and neurological processes, human personalities,
+human social practices and institutions. Coole limits the spectrum
+in this way because she is interested in a specifically political kind of
+agency, and for her politics is an exclusively human affair. Here I dis-
+agree, and as I will argue in chapter 7, a case can be made for including .
+nonhumans in the demos. The prevention of future blackouts, for ex-
+ample, will depend on a host of cooperative efforts: Congress will have
+to summon the courage to fight industry demands at odds with a more
+common good, but reactive power will also have to do its part, on con-
+dition that it is not asked to travel too far. A vital materialism attempts a ~
+more radical displacement of the human subject than phenomenology -
+has done, though Merleau-Ponty himself seemed to be moving in this
+direction in his unfinished Visible and Unvisible.
+
+That text begins to undo the conceit that humanity is the sole or ulti- _
+mate wellspring of agency. So does Latour’s Aramis, which shows how |
+the cars, electricity, and magnets of an experimental Parisian mass tran-
+sit system acted positively (and not just as a constraint) alongside the
+activities of human and intersubjective bodies, words, and regulations”
+Latour’s later work continues to call for people to imagine other roles
+for things besides that of carriers of necessity, or “plastic” vehicles for
+
+- Efficacy, Trajectory, Causality
+
+Theodor Adomo claimed that it was not possible to “unseal” or parse
+concept into its constituent parts: one could only “circle” around a
+mcept, perhaps until one gets dizzy or arrives at the point at which
+nidentity with the real can no longer be ignored. What also happens
+one circles around a concept is that a set of related terms comes
+
+among others) efficacy, trajectory, and causality.
+
+Efficacy points to the creativity of agency, to a capacity to make
+mething new appear or occur. In the tradition that defines agency
+as moral capacity, such new effects are understood as having arisen in
+e wake of an advance plan or an intention, for agency “involves not
+mere motion, but willed or intended motion, where motion can only
+be willed or intended by a subject.”* A theory of distributive agency, in
+contrast, does not posit a subject as the root cause of an effect. There
+
+ito view, as a swarm of affiliates. In the case of agency, these include
+
+
+32 chapter 2
+
+are instead always a swarm of vitalities at play. The task becomes to
+identify the contours of the swarm and the kind of relations that obtain
+between its bits. To figure the generative source of effects as a swarm
+is to see human intentions as always in competition and confederation
+with many other strivings, for an intention is like a pebble thrown into
+a pond, or an electrical current sent through a wire or neural network:
+it vibrates and merges with other currents, to affect and be affected.
+This understanding of agency does not deny the existence of that thrust
+called intentionality, but it does see it as less definitive of outcomes. It
+loosens the connections between efficacy and the moral subject, bring-
+ing efficacy closer to the idea of the power to make a difference that calls
+for response. And this power, I contend along with Spinoza and others,
+is a power possessed by nonhuman bodies too.
+
+In addition to being tied to the idea of efficacy, agency is also bound
+up with the idea of a trajectory, a directionality or movement away
+
+from somewhere even if the toward-which it moves is obscure or even
+absent. Moral philosophy has figured this trajection as a purposiveness
+or a goal-directedness linked to a (human or divine) mind capable of
+choice and intention, but Jacques Derrida offers an alternative to this
+consciousness-centered thinking by figuring trajectory as “messianicity.”
+Messianicity is the open-ended promissory quality of a claim, image, or
+entity. This unspecified promise is for Derrida the very condition of pos-
+sibility of phenomenality: things in the world appear to us at all only
+because they tantalize and hold us in suspense, alluding to a fullness
+that is elsewhere, to a future that, apparently, is on its way. For Derrida
+this promissory note is never and can never be redeemed: the “straining
+forward toward the event” never finds relief. To be alive is to be waiting
+“for someone or something that, in order to happen . . . must exceed and
+surprise every determinate anticipation.” In naming the unfulfillable
+promise as the condition of the appearance of anything, Derrida pro-
+vides a way for the vital materialist to affirm the existence of a certain
+trajectory or drive to assemblages without insinuating intentionality or
+purposiveness.
+
+A third element in the agentic swarm is perhaps the most vague of
+all: causality. If agency is distributive or confederate, then instances of
+efficient causality, with its chain of simple bodies acting as the sole im-
+petus for the next effect, will be impossibly rare. Is George W. Bush the
+efficient cause of the American invasion of Iraq? Is Osama bin Laden?
+
+the agency of assemblages 33
+
+If one extends the time frame of the action beyond that of even an in-
+- stant, billiard-ball causality falters. Alongside and inside singular human
+agents there exists a heterogenous series of actants with partial, over-
+lapping, and conflicting degrees of power and effectivity.
+
+Here causality is more emergent than efficient, more fractal than lin-
+ear. Instead of an effect obedient to a determinant, one finds circuits in
+which effect and cause alternate position and redound on each other.
+If efficient causality seeks to rank the actants involved, treating some
+as external causes and others as dependent effects, emergent causality
+places the focus on the process as itself an actant, as itself in possession
+of degrees of agentic capacity. According to Connolly,
+
+: emergent causality is causal . . . in that a movement at [one] .. . level has
+effects at another level. But it is emergent in that, first, the character of
+the . . . activity is not knowable in. . . detail prior to effects that emerge at
+the second level. [Moreover,] . . . the new effects become infused into the
+very. . . organization of the second level . .. such . . . that the cause cannot
+be said to be fully different from the effect engendered. ... [Third,]...a
+series of . . . feedback loops operate between first and second levels to gen-
+erate the stabilized result. The new emergent is shaped not only by external
+forces that become infused into it but also by its own previously under-tapped
+capacities for reception and self-organization.
+
+This sense of a melting of cause and effect is also expressed in the ordi-
+- Dary usage of the term agent, which can refer both to a human subject
+who is the sole and original author of an effect (as in “moral agent”) and
+also to someone or something that is the mere vehicle or passive conduit
+* for the will of another (as in “literary agent” or “insurance agent”).
+
+If ordinary language intuits the existence of a nonlinear, novhierar-
+ chical, non-subject-centered mode of agency, Hannah’ Arendt makes
+the point explicitly by distinguishing between “cause” and “origin”
+in her discussion of totalitarianism. A cause is a singular, stable, and
+masterful initiator of effects, while an origin is a complex, mobile, and
+‘heteronomous enjoiner of forces: “The elements of totalitarianism form
+its origins if by origins we do not understand ‘causes: Causality, ie.,
+the factor of determination of a process of events in which always one
+~ event causes and can be explained by another, is probably an altogether
+“alien and falsifying category in the realm of the historical and political
+sciences. Elements by themselves probably never cause anything. They
+
+
+34 chapter 2
+
+become origins of events if and when they crystallize into fixed and
+definite forms. Then, and only then, can we trace their history back-
+wards. The event illuminates its own past, but it can never be deduced
+from it.”#
+
+For Arendt, it is impossible to discern in advance the cause of totali-
+tarianism. Instead, like all political phenomena, its sources can only be
+revealed retroactively. These sources are necessarily multiple, made up
+of elements unaffiliated before the “crystallization” process began. In
+fact, what makes the event happen is precisely the contingent coming
+together of a set of elements. Here Arendt’s view is consonant with a dis-
+tributive notion of agency. But if we look at what spurs such crystalliza-
+tions for her, we see her revert to a more traditional, subject-centered
+notion. Whereas the theorist of distributive agency would answer that
+anything could touch off the crystallization process (a sound, a last
+straw, a shoe, a blackout, a human intention), Arendt concludes that
+while the “significance” of an event can exceed “the intentions which
+eventually cause the crystallization, intentions are nevertheless the key
+to the event. Once again, human intentionality is positioned as the most
+important of all agential factors, the bearer of an exceptional kind of
+power.®
+
+Shi
+
+Why speak of the agency of assemblages, and not, more modestly, of
+their capacity to form a “culture,” or to “self-organize,” or to “partici-
+pate” in effects? Because the rubric of material agency is likely to be a
+stronger counter to human exceptionalism, to, that is, the human ten-
+dency to understate the degree to which people, animals, artifacts, tech-
+nologies, and elemental forces share powers and operate in dissonant
+conjunction with each other. No one really knows what human agency
+is, or what humans are doing when they are said to perform as agents. In
+the face of every analysis, human agency remains something of a mys-
+tery. If we do not know just how it is that human agency operates, how
+can we be so sure that the processes through which nonhumans make
+their mark are qualitatively different?
+
+An assemblage owes its agentic capacity to the vitality of the mate-
+‘ialities that constitute it. Something like this congregational agency
+
+the agency of assemblages : 35.0
+
+is called shi in the Chinese tradition. Shi helps to “illuminate some-
+thing that is usually difficult to capture in discourse: namely, the kind
+of potential that originates not in human initiative but instead results
+from the very disposition of things.“ Shi is the style, energy, propensity,
+trajectory, or élan inherent to a specific arrangement of things. Origi-
+nally a word used in military strategy, shi emerged in the description ofa
+good general who must be able to read and then ride the shi ofa configu-
+ration of moods, winds, historical trends, and armaments: shi names the
+dynamic force emanating from a spatio-temporal configuration rather
+than from any particular element within it.
+
+Again, the shi of an assemblage is vibratory; it is the mood or style
+of an open whole in which both the membership changes over time
+and the members themselves undergo internal alteration. Each mem-
+ber “possesses autonomous emergent properties which are thus capable
+of independent variation and therefore of being out of phase with one
+another in time”*” When a member-actant, in the midst of a process
+of self-alteration, becomes out of sync with its (previous) self, when,
+if you like, it is in a reactive-power state,** it can form new sets of re-
+lations in the assemblage and be drawn toward a different set of allies.
+The members of an open whole never melt into a collective body, but
+instead maintain an energy potentially at odds with the shi. Deleuze
+invented the notion of “adsorbsion” to describe this kind of part-whole
+relationship: adsorbsion is a gathering of elements in a way that both
+forms. coalition and yet preserves something of the agential impetus of
+each element.** It is because of the creative activity within actants that
+the agency of assemblages is not best described in terms of social struc-
+tures, a locution that designates a stolid whole whose efficacy resides
+only in its conditioning recalcitrance or capacity to obstruct.
+
+The shi of a milieu can be obvious or subtle. It can operate at the very
+
+' threshold of human perception or more violently. A coffee house or a
+
+school house is a mobile configuration of people, insects, odors, ink,
+electrical flows, air currents, caffeine, tables, chairs, fluids, and sounds.
+Their shi might at one time consist in the mild and ephemeral effluence
+of good vibes, and at another in a more dramatic force capable of en-
+gendering a philosophical or political movement, as it did in the cafés
+of Jean-Paul Sartre’s and Simone de Beauvoir'’s Paris and in the Islamist
+schools in Pakistan in the late twentieth century.
+
+
+” of unpredictability marking assemblages composed of intersecting and
+
+36 chapter 2 the agency of assemblages’ 37,
+
+the order of material nature. To affirm a vitality distributed along a con-
+tinuum of ontological types and to identify the human-nonhuman as-
+semblage as a locus of agency is to unsettle this belief. But must a dis-
+ibutive, composite notion of agency thereby abandon the attempt to
+old individuals responsible for their actions or hold officials account-
+le to the public? The directors of the FirstEnergy corporation were
+all too eager to reach this conclusion in the task force report: no one
+‘teally is to blame. Though it is unlikely that the energy traders shared
+amy vital materialism, I, too, find it hard to assign the strongest or most
+unitive version of moral responsibility to them. Autonomy and strong
+responsibility seem to me to be empirically false, and thus their invoca-
+ion seems tinged with injustice. In emphasizing the ensemble nature of
+action and the interconnections between persons and things, a theory
+f vibrant matter presents individuals as simply incapable of bearing full
+onsibility for their effects.
+e notion of a confederate agency does attenuate the blame game,
+but it does not thereby abandon the project of identifying (what Arendt
+called) the sources of harmful effects. To the contrary, such a notion
+broadens the range of places to look for sources. Look to long-term
+
+Political Responsibility and the Agency of Assemblages
+
+The electrical grid, by blacking out, lit up quite a lot: the shabby con-
+dition of the public-utilities infrastructure, the law-abidingness of New
+York City residents living in the dark, the disproportionate and accel-
+erating consumption of energy by North Americans, and the element
+
+resonating elements. Thus spoke the grid. One might even say that it
+exhibited a communicative interest. It will be objected that such com-
+munication is possible only through the intermediary of humans. But is
+this really an objection, given that even linguistic communication nec-
+essarily entails intermediaries? My speech, for example, depends on the
+graphite in my pencil, millions of persons, dead and alive, in my Indo-
+European language group, not to mention the electricity in my brain
+and my laptop. (The human brain, properly wired, can light up a fifteen-
+watt bulb.) Humans and nonhumans alike depend on a “fabulously com-
+plex” set of speech prostheses.°°
+Noortje Marres rightly notes that “it is often hard to grasp just what
+the sources of agency are that make a particular event happen” and that
+this “ungraspability may be an [essential] aspect of agency.” But it is a
+safe bet to begin with the presumption that the locus of political respon-
+sibility is a human-nonhuman assemblage. On close-enough inspection,
+the productive power that has engendered an effect will turn out to bea
+confederacy, and the human actants within it will themselves turn out
+to be confederations of tools, microbes, minerals, sounds, and other
+“foreign” materialities. Human intentionality can emerge as agentic
+only by way of such a distribution. The agency of assemblages is not the
+strong, autonomous kind of agency to which Augustine and Kant (or an
+omnipotent God) aspired; this is because the relationship between ten-
+dencies and outcomes or between trajectories and effects is imagined
+
+strings of events: to selfish intentions, to energy policy offering lucra-
+tive opportunities for energy trading while generating a tragedy of the
+‘ mmons, and to a psychic resistance to acknowledging a link between
+American energy use, American imperialism, and anti-Americanism;
+ut look also to the stubborn directionality of a high-consumption so-
+infrastructure, to unstable electron flows, to conative wildfires, to
+exurban housing pressures, and to the assemblages they form. In each
+on the list, humans and their intentions participate, but they are
+the sole or always the most profound actant in the assemblage.
+ough it would give me pleasure to assert that deregulation and
+orate greed are the real culprits in the blackout, the most I can
+estly affirm is that corporations are one of the sites at which human
+at reform can be applied, that corporate regulation is one place
+re intentions might initiate a cascade of effects. Perhaps the ethical
+onsibility of an individual human now resides in one’s response to
+assemblages in which one finds oneself participating: Do I attempt
+xtricate myself from assemblages whose trajectory is likely to do
+? Do I enter into the proximity of assemblages whose conglom-
+
+as more porous, tenuous, and thus indirect.
+
+Coole’s account of a spectrum of agentic capacities, like the kind of
+agency that is subjected to structural constraints, does not recognize
+the agency of human-nonhuman assemblages. And this is in part be-
+cause of the difficulty of theorizing agency apart from the belief that
+bumans are special in the sense of existing, at least in part, outside of
+
+
+erate effectivity tends toward the enactment of nobler ends? Agency
+is, I believe, distributed across a mosaic, but it is also possible to say
+something about the kind of striving that may be exercised by a human
+within the assemblage. This exertion is perhaps best understood on the
+model of riding a bicycle on a gravel road. One can throw one’s weight
+this way or that, inflect the bike in one direction or toward one trajec.
+tory of motion. But the rider is but one actant operative in the moving
+whole.
+
+Tn a world of distributed agency, a hesitant attitude toward assigning
+singular blame becomes a presumptive virtue. Of course, sometimes
+moral outrage, akin to what Plato called thumos, is indispensable to
+democratic;and just politics. In the years leading up to the publicatio
+of this book, these were some of the things that called me to outrage:
+the doctrine of preemptive war, the violation of human rights and of the
+Geneva Accords at Guanténamo Bay, the torture of prisoners in Iraq and
+in accordance with a policy of so-called extraordinary rendition, the re-
+striction of protesters at President Bush’s public appearances to a “free
+speech zone” out of the view of television cameras, the U.S. military’
+policy of not keeping a count of Iraqi civilian deaths. Outrage will not
+and should not disappear, but a politics devoted too exclusively to moral
+condemnation and not enough to a cultivated discernment of the web
+of agentic capacities can do little good. A moralized politics of good
+and evil, of singular agents who must be made to pay for their sins (be
+they bin Laden, Saddam Hussein, or Bush) becomes unethical to th
+degree that it legitimates vengeance and elevates violence to the tool of
+first resort. An understanding of agency as distributive and confederate
+thus reinvokes the need to detach ethics from moralism and to produce
+guides to action appropriate to a world of vital, crosscutting forces.
+
+These claims are contestable, and other actants, enmeshed in other
+assemblages, will offer different diagnoses of the political and its prob-
+lems. It is ultimately a matter of political judgment what is more needed
+today: should we acknowledge the distributive quality of agency to ad-
+dress the power of human-nonhuman assemblages and to resist a poli
+tics of blame? Or should we persist with a strategic understatement o}
+
+material agency in the hopes of enhancing the accountability of specifi
+humans?
+
+dible Matter
+
+is not controversial to say that trash, gadgets, electricity, and fire are
+levant to politics, or to say that though such things do not qualify as
+litical stakeholders, they form the milieu of human action or serve
+“means or impediments to it. But do the categories of context, tool,
+and constraint capture the full range of powers possessed by nonhuman.
+bodies? In this chapter I will focus on one subset of those bodies, the
+id that you can eat. I will treat food as conative bodies vying along-
+le and within an other complex body (a person’s “own” body). To the
+les of context, tool, and constraint (or background, resource, and
+limit) I will add the role of actant. Food will appear as actant inside and
+longside intention-forming, morality-(dis)obeying, language-using,
+lexivity-wielding, and culture-making human beings, and as an
+inducer-producer of salient, public effects. We can call the assemblage
+med by these human and nonhuman bodies “American consump-
+tion” and name as one of its effects the “crisis of obesity.”
+
+My case for food as a participant in this assemblage has two prongs.
+e first seeks support in scientific studies of the effects of dietary
+
+
