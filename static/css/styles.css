@@ -1,0 +1,263 @@
+:root {
+    --bg-color: #f2f2f2;
+    --container-bg: #ffffff;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --border-radius: 28px;
+    --spacing: 24px;
+    --footer-height: 60px;
+    --header-height: 80px;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px var(--spacing);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
+    display: block;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+    padding: 0 var(--spacing) var(--spacing);
+    gap: var(--spacing);
+    max-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.panel {
+    background-color: var(--container-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-panel {
+    flex: 1;
+    position: relative;
+}
+
+.essay-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.message.user {
+    align-self: flex-end;
+}
+
+.message.bot {
+    align-self: flex-start;
+}
+
+.message-bubble {
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.message.user .message-bubble {
+    background-color: #c8e6c9;  /* Darker pastel green for user */
+    border-top-right-radius: 4px;
+}
+
+.message.bot .message-bubble {
+    background-color: #e8f5e9;  /* Brighter pastel green for bot */
+    border-top-left-radius: 4px;
+}
+
+.message-user {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: var(--text-secondary);
+}
+
+.chat-input-container {
+    padding: 16px var(--spacing);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.chat-input-wrapper {
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 24px;
+    padding: 8px 16px;
+}
+
+#message-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 8px 0;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+}
+
+#send-button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.essay-content {
+    flex: 1;
+    padding: var(--spacing);
+    overflow-y: auto;
+    line-height: 1.6;
+}
+
+.essay-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.essay-content p {
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.footer {
+    height: var(--footer-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 14px;
+    padding: 0 var(--spacing);
+}
+
+.message-bubble ul,
+.message-bubble ol {
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .panel {
+        width: 100%;
+    }
+
+    .chat-panel {
+        height: 100%;
+    }
+
+    .essay-panel {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 85%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 20;
+        border-radius: 0;
+    }
+
+    .essay-panel.active {
+        transform: translateX(0);
+    }
+
+    .toggle-essay {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #4CAF50;
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .toggle-essay svg {
+        width: 24px;
+        height: 24px;
+        color: white;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 15;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .overlay.active {
+        display: block;
+        opacity: 1;
+    }
+}

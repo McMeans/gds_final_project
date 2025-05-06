@@ -1,36 +1,37 @@
 from flask import Flask, render_template, request, jsonify
-import random
+import os
+from dotenv import load_dotenv
+import google.generativeai as genai
 
+# Load environment variables
+load_dotenv()
+
+# Initialize Flask app
 app = Flask(__name__)
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", os.urandom(24))
 
-@app.route('/')
-def home():
-    return render_template('index.html')
+# Read essay content from markdown file
+with open(os.path.join('static', 'essay.md'), 'r', encoding='utf-8') as f:
+    essay_markdown = f.read()
 
-@app.route('/about')
-def about():
-    return render_template('about.html')
+# Set up Gemini
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+model = genai.GenerativeModel("gemini-1.5-pro")
 
-@app.route('/faq')
-def faq():
-    return render_template('faq.html')
+# Serve the main page
+@app.route("/")
+def index():
+    return render_template("index.html", essay=essay_markdown)
 
-@app.route('/chat')
+@app.route("/chat", methods=["POST"])
 def chat():
-    return render_template('chat.html')
+    data = request.json
+    conversation = data.get("conversation")
+    if not conversation or not isinstance(conversation, list):
+        return jsonify({"error": "No conversation provided"}), 400
+    response = model.generate_content(conversation)
+    bot_message = response.text.strip()
+    return jsonify({"message": bot_message})
 
-@app.route('/api/chat', methods=['POST'])
-def chat_api():
-    messages = [
-        "Hello! How can I help you today?",
-        "I'm here to chat! What's on your mind?",
-        "Nice to meet you! What would you like to talk about?",
-        "Hi there! I'm ready to have a conversation.",
-        "Greetings! How can I assist you?"
-    ]
-    
-    random_message = random.choice(messages)
-    return jsonify({"message": random_message})
-
-if __name__ == '__main__':
-    app.run(debug=True) 
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=8000)

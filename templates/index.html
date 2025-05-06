@@ -1,33 +1,185 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edmund</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="header">
+        <img src="{{ url_for('static', filename='images/edmund_logo.png') }}" alt="Edmund Logo" class="logo-img">
+        <h1>Edmund</h1>
+    </div>
 
-{% block title %}Human-Centered Chatbot{% endblock %}
-
-{% block content %}
-<div class="flex flex-col min-h-screen">
-    <main class="flex-1">
-        <section class="w-full py-12 md:py-24 bg-amber-50">
-            <div class="container px-4 md:px-6">
-                <div class="flex flex-col items-center text-center space-y-4">
-                    <div class="inline-block p-4 rounded-full bg-amber-100">
-                        <svg class="h-10 w-10 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+    <div class="main-container">
+        <!-- Chat Panel -->
+        <div class="panel chat-panel">
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="chat-input-container">
+                <div class="chat-input-wrapper">
+                    <input type="text" id="message-input" placeholder="Type your message...">
+                    <button id="send-button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                    </div>
-                    <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-amber-900">
-                        Welcome to Human Bot
-                    </h1>
-                    <p class="max-w-[700px] text-gray-700 md:text-xl mx-auto">
-                        Experience a chatbot designed with human-centered principles. Start a conversation and see the difference.
-                    </p>
-                    <a href="/chat" class="inline-flex items-center justify-center rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white hover:bg-amber-700">
-                        Start Chatting
-                        <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
+                    </button>
                 </div>
             </div>
-        </section>
-    </main>
-</div>
-{% endblock %} 
+        </div>
+
+        <!-- Essay Panel -->
+        <div class="panel essay-panel" id="essay-panel">
+            <div class="essay-content" id="essay-content">
+                <!-- Essay content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Created by Luke McMeans (2025)</p>
+    </div>
+
+    <!-- Mobile overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <script>
+        // DOM Elements
+        const chatMessages = document.getElementById('chat-messages');
+        const messageInput = document.getElementById('message-input');
+        const sendButton = document.getElementById('send-button');
+        const essayPanel = document.getElementById('essay-panel');
+        const essayContent = document.getElementById('essay-content');
+        const overlay = document.getElementById('overlay');
+        
+        // Set essay content with Markdown rendering
+        essayContent.innerHTML = marked.parse(`{{ essay|safe }}`);
+        
+        // Conversation memory (cleared on refresh)
+        let conversation = [
+            { role: "model", parts: [{ text: "Hello! I'm Edmund, your AI assistant. How can I help you today?" }] }
+        ];
+        
+        // Add a message to the chat
+        function addMessage(user, message, isUser = false) {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message');
+            messageElement.classList.add(isUser ? 'user' : 'bot');
+            const userElement = document.createElement('div');
+            userElement.classList.add('message-user');
+            userElement.textContent = user;
+            const bubbleElement = document.createElement('div');
+            bubbleElement.classList.add('message-bubble');
+            bubbleElement.textContent = message;
+            messageElement.appendChild(userElement);
+            messageElement.appendChild(bubbleElement);
+            chatMessages.appendChild(messageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Typing animation for bot messages (with markdown)
+        function addBotMessageTyping(user, message, typingSpeed = 12) {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message', 'bot');
+            const userElement = document.createElement('div');
+            userElement.classList.add('message-user');
+            userElement.textContent = user;
+            const bubbleElement = document.createElement('div');
+            bubbleElement.classList.add('message-bubble');
+            bubbleElement.innerHTML = '';
+            messageElement.appendChild(userElement);
+            messageElement.appendChild(bubbleElement);
+            chatMessages.appendChild(messageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            let i = 0;
+            function typeChar() {
+                if (i <= message.length) {
+                    bubbleElement.innerHTML = marked.parse(message.slice(0, i));
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                    i++;
+                    setTimeout(typeChar, typingSpeed);
+                }
+            }
+            typeChar();
+        }
+        
+        // Send a message
+        function sendMessage() {
+            const message = messageInput.value.trim();
+            if (message) {
+                addMessage('You', message, true);
+                conversation.push({ role: "user", parts: [{ text: message }] });
+                messageInput.value = '';
+                // Fetch Gemini response with conversation memory
+                fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ conversation })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.message) {
+                        addBotMessageTyping('Edmund', data.message);
+                        conversation.push({ role: "model", parts: [{ text: data.message }] });
+                    } else {
+                        addBotMessageTyping('Edmund', 'Sorry, I could not get a response.');
+                    }
+                })
+                .catch(() => {
+                    addBotMessageTyping('Edmund', 'Sorry, there was an error connecting to the server.');
+                });
+            }
+        }
+        
+        // Event Listeners
+        sendButton.addEventListener('click', sendMessage);
+        
+        messageInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+        
+        // For mobile: toggle essay panel
+        function setupEssayToggle() {
+            if (window.innerWidth <= 768 && !document.querySelector('.toggle-essay')) {
+                const toggleEssay = document.createElement('button');
+                toggleEssay.classList.add('toggle-essay');
+                toggleEssay.innerHTML = `
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19Z" fill="currentColor"/>
+                        <path d="M7 7H17V9H7V7Z" fill="currentColor"/>
+                        <path d="M7 11H17V13H7V11Z" fill="currentColor"/>
+                        <path d="M7 15H13V17H7V15Z" fill="currentColor"/>
+                    </svg>
+                `;
+                document.body.appendChild(toggleEssay);
+                
+                toggleEssay.addEventListener('click', () => {
+                    essayPanel.classList.add('active');
+                    overlay.classList.add('active');
+                });
+                
+                overlay.addEventListener('click', () => {
+                    essayPanel.classList.remove('active');
+                    overlay.classList.remove('active');
+                });
+            }
+        }
+        document.addEventListener('DOMContentLoaded', setupEssayToggle);
+        window.addEventListener('resize', () => {
+            // Remove button if resizing to desktop
+            const btn = document.querySelector('.toggle-essay');
+            if (window.innerWidth > 768 && btn) btn.remove();
+            if (window.innerWidth <= 768) setupEssayToggle();
+        });
+        
+        // On page load, show the welcome message
+        addBotMessageTyping('Edmund', conversation[0].parts[0].text);
+    </script>
+</body>
+</html>
