@@ -11,10 +11,6 @@ load_dotenv()
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", os.urandom(24))
 
-# Read essay content from markdown file
-with open(os.path.join('static', 'essay.md'), 'r', encoding='utf-8') as f:
-    essay_markdown = f.read()
-
 # Get knowledge base
 with open("knowledge_base.txt", "r", encoding="utf-8") as f:
     knowledge_base = f.read()
@@ -57,7 +53,7 @@ else:
 # Serve the main page
 @app.route("/")
 def index():
-    return render_template("index.html", essay=essay_markdown)
+    return render_template("index.html")
 
 @app.route("/chat", methods=["POST"])
 def chat():
