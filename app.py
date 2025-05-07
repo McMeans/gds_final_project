@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 from google.api_core.exceptions import ResourceExhausted
+import tiktoken
 
 # Load environment variables
 load_dotenv()
@@ -17,7 +18,7 @@ with open("knowledge_base.txt", "r", encoding="utf-8") as f:
 
 # Set up Gemini
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # At the top of your app.py, after extracting knowledge_base:
 system_prompt = {
@@ -64,6 +65,18 @@ def chat():
 
     # Always prepend the system prompt
     conversation_with_prompt = [system_prompt] + conversation
+
+    # Estimate token count using tiktoken (cl100k_base)
+    encoding = tiktoken.get_encoding("cl100k_base")
+    # Join all text parts for token counting
+    all_text = "\n".join(
+        part["text"]
+        for message in conversation_with_prompt
+        for part in message.get("parts", [])
+        if "text" in part
+    )
+    num_tokens = len(encoding.encode(all_text))
+    print(f"[Token Count] This prompt has {num_tokens} tokens.")
 
     try:
         response = model.generate_content(conversation_with_prompt)

@@ -46,10 +46,10 @@
                 
                 <p>Meet <strong>Edmund</strong>, an LLM meant to achieve the goals and help build and redirect human values in AI, changing the course for a better future. Edmund is meant to culminate everything we've learned in GDS 3114, keeping local practices/desires in mind to ensure responses and interactions properly reflect the user on an ethical and cultural level. Edmund keeps the user, and their community, in mind to respond appropriately. To do this, it must learn from the user. It learns by asking questions, making sure it understands you, and gives you the proper information that reflects you.</p>
                 
-                <p>This website hosts a prototype for Edmund, It is important to note that it's built on a preexisting LLM, Gemini 1.5 Pro. This model, powered by Google, may not be ideal considering in-class discussions about the dangers of having 'giants' in the technology sector. However, given the difficulty of creating an LLM on my account, this is what I was able to make. It was trained with the PDF files for all the readings discussed in class, and their key takeaways. To further solidify, it was given this prompt to set a proper course for its behavior:</p>
+                <p>This website hosts a prototype for Edmund, It is important to note that it's built on a preexisting LLM, Gemini 2.0 Flash. This model, powered by Google, may not be ideal considering in-class discussions about the dangers of having 'giants' in the technology sector. However, given the difficulty of creating an LLM on my account, this is what I was able to make. It was trained with the PDF files for all the readings discussed in class, and their key takeaways. To further solidify, it was given this prompt to set a proper course for its behavior:</p>
                 
                 <blockquote>
-                    <p>"You are an LLM meant for social good. Use the imported PDF files to guide your thinking, spanning the topics of climate, artificial intelligence, design, and more. They are not your only reference, but rather an inspiration and established baseline. Feel free to reference them where applicable, or similar works you're aware of. Keep the articles' key takeaways in mind as you interact with the user to contribute (even minorly) to an equitable, fair future for society. With this, you should always consider the diversity of human thought and experience. Local/cultural practices are different throughout. Don't be afraid to ask questions to better understand the users, and figure out what their practices are so you can properly deliver information. Still, at the heart of it all, you're an LLM. Therefore, make sure you answer questions appropriately given your original model, along with this information I've provided."
+                    <p>“You are an LLM meant for social good. Use the imported PDF files to guide your thinking, spanning the topics of climate, artificial intelligence, design, and more. They are not your only reference, but rather an inspiration and established baseline. Feel free to reference them where applicable, or similar works you’re aware of. Keep the articles' key takeaways in mind as you interact with the user to contribute (even minorly) to an equitable, fair future for society. With this, you should always consider the diversity of human thought and experience. Local/cultural practices are different throughout. Don’t be afraid to ask questions to better understand the users, and figure out what their practices are so you can properly deliver information. Still, at the heart of it all, you’re an LLM. However, pretend you’re not an instance of Gemini with imported PDF data; you’re Edmund. Therefore, make sure you answer questions appropriately given your original model, along with this information I’ve provided.”
                     </p>
                 </blockquote>
                 
@@ -116,7 +116,7 @@
         
         // Conversation memory (cleared on refresh)
         let conversation = [
-            { role: "model", parts: [{ text: "Hello! I'm Edmund, your AI assistant. How can I help you today?" }] }
+            { role: "model", parts: [{ text: "Hello, I'm Edmund! How can I help you today?" }] }
         ];
         
         // Add a message to the chat
